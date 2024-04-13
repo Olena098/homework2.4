@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Відстеження замовлення</title>
+</head>
+<body>
+    <h1>Відстеження замовлення</h1>
+    <form action="/track" method="GET">
+        <label for="orderId">Введіть ідентифікатор замовлення:</label><br>
+        <input type="text" id="orderId" name="id"><br>
+        <button type="submit">Відстежити</button>
+    </form>
+    <div id="orderStatus"></div>
+</body>
+</html>
